@@ -371,14 +371,14 @@ def minFunc(numVar, stringIn):
 					f=f+'+'					#SOP operator
 		return(f)
 	stringOut=exp(z)		#storing
-	return(stringOut)    	#returning the K map value back
+	return (stringOut)    	#returning the K map value back
 
 
 '''Samples to test if the code works properly or not'''
 
-# print(minFunc('2','(1,2)d-'))
-# print(minFunc('3','(2,5)d(0,4,6)'))
-# print(minFunc('4','(3,9,12,15)d(0,1,4,7,8,10,11,14)'))
-# print(minFunc('4','(1,2,4,5,6,10,11,12,13)d-'))
+print(minFunc('2','(1,2)d-'))
+print(minFunc('3','(2,5)d(0,4,6)'))
+print(minFunc('4','(3,9,12,15)d(0,1,4,7,8,10,11,14)'))
+print(minFunc('4','(1,2,4,5,6,10,11,12,13)d-'))
 
 	
